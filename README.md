@@ -6,7 +6,7 @@ just a docker file to run a local instance of local dynamodb for testing and dev
 To build:
 
 ```shell
-docker build -t "alimoeeny/localdynamodb" .
+docker build -t "alimoeeny/localdynamodb" --rm=true --force-rm=true .
 ```
 
 
